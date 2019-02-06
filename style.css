@@ -1,0 +1,17 @@
+* {
+	font-size: 5vw;
+}
+
+#container {
+	margin: 0 auto;
+	width: 600px;
+	height: 600px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+#display {
+	border: 5px solid black;
+	height: 90px;
+	text-align: center;
+}
